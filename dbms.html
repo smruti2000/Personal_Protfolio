@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>DBMS Note 📖</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="image/faviconn.ico">
+
+  <!-- Font Stye -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="container-fluid top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid header">
+        <a class="navbar-brand" href="index.html"> <img src="image/favicon.ico"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="qna.html">QnA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="video.html">Video</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="message qna">
+    Database Management System
+  </div>
+  <div class="container note">
+    <b>1. Define Database. </b><br>
+    <b>A.</b> A prearranged collection of figures known as data is called database.
+    <br><br>
+
+    <b>2. What is DBMS? </b><br>
+    <b>A. </b>Database Management Systems (DBMS) are applications designed especially which enable user interaction with other applications.
+    <br><br>
+
+    <b>3. What are the various kinds of interactions catered by DBMS? </b><br>
+    <b>A. </b>The various kind of interactions catered by DBMS are:
+    <ul>
+      <li>Data definition</li>
+      <li>Update</li>
+      <li>Retrieval</li>
+      <li>Administration</li>
+    </ul>
+
+    <b>4. Segregate database technology’s development. </b><br>
+    <b>A. </b>The development of database technology is divided into:
+    <ul>
+      <li>DStructure or data model</li>
+      <li>Navigational model</li>
+      <li>SQL/ relational modelata definition</li>
+    </ul>
+
+    <b>5. Who proposed the relational model? </b><br>
+    <b>A. </b>Edgar F. Codd proposed the relational model in 1970.
+    <br><br>
+
+    <b>6. What are the features of Database language? </b><br>
+    <b>A. </b>A database language may also incorporate features like:DBMS-specific Configuration and management of storage engine
+    Computations to modification of query results by computations, like summing, counting, averaging, grouping, sorting and cross-referencing Constraint enforcement Application Programming Interface
+    <br><br>
+
+    <b>7. What do database languages do? </b><br>
+    <b>A. </b>As special-purpose languages, they have:
+    <ul>
+      <li>Data definition language</li>
+      <li>Data manipulation language</li>
+      <li>Query language</li>
+    </ul>
+
+    <b>8. Define database model. </b><br>
+    <b>A. </b>A data model determining fundamentally how data can be stored, manipulated and organised and the structure of the database logically is called database model.
+    <br><br>
+
+    <b>9. What is SQL? </b><br>
+    <b>A. </b>Structured Query Language (SQL) being ANSI standard language updates database and commands for accessing.
+    <br><br>
+
+    <b>10. Enlist the various relationships of database. </b><br>
+    <b>A. </b>The various relationships of database are:
+    <ul>
+      <li>One-to-one: Single table having drawn relationship with another table having similar kind of columns.</li>
+      <li>One-to-many: Two tables having primary and foreign key relation.</li>
+      <li>Many-to-many: Junction table having many tables related to many tables.</li>
+    </ul>
+
+    <b>11. Define Normalization. </b><br>
+    <b>A. </b>Organized data void of inconsistent dependency and redundancy within a database is called normalization.
+    <br><br>
+
+    <b>12. Enlist the advantages of normalizing database. </b><br>
+    <b>A. </b>Advantages of normalizing database are:
+    <ul>
+      <li>No duplicate entries</li>
+      <li>Saves storage space</li>
+      <li>Boasts the query performances.</li>
+    </ul>
+
+    <b>13. Define Denormalization. </b><br>
+    <b>A. </b>Boosting up database performance, adding of redundant data which in turn helps rid of complex data is called denormalization.
+    <br><br>
+
+    <b>14. Define DDL and DML. </b><br>
+    <b>A. </b>Managing properties and attributes of database is called Data Definition Language(DDL).<br>
+    Manipulating data in a database such as inserting, updating, deleting is defined as Data Manipulation Language. (DML)
+    <br><br>
+
+    <b>15. Enlist some commands of DDL. </b><br>
+    <b>A. </b>They are:<br>
+    CREATE: Create is used in the CREATE TABLE statement.<br>
+    Syntax is: CREATE TABLE [column name] ( [column definitions] )<br>
+    ALTER: It helps in modification of an existing object of database.<br>
+    Its syntax is: ALTER objecttype objectname parameters.<br>
+    DROP: It destroys an existing database, index, table or view.<br>
+    Its syntax is: DROP objecttype objectname.
+    <br><br>
+
+    <b>16. Define Union All operator and Union.</b><br>
+    <b>A. </b>Full recordings of two tables is Union All operator.A distinct recording of two tables is Union.
+    <br><br>
+
+    <b>17. Define cursor. </b><br>
+    <b>A. </b>A database object which helps in manipulating data row by row representing a result set is called cursor.
+    <br><br>
+
+    <b>18. Enlist the cursor types. </b><br>
+    <b>A. </b>They are:
+    <ul>
+      <li> Dynamic: it reflects changes while scrolling.</li>
+      <li>Static: doesn’t reflect changes while scrolling and works on recording of snapshot.</li>
+      <li>Keyset: data modification without reflection of new data is seen.</li>
+    </ul>
+
+    <b>19. Enlist the types of cursor. </b><br>
+    <b>A. </b>They types of cursor are:
+    <ul>
+      <li>Implicit cursor: Declared automatically as soon as the execution of SQL takes place without the awareness of the user.</li>
+      <li>Explicit cursor: Defined by PL/ SQL which handles query in more than one row.</li>
+    </ul>
+
+    <b>20. Define sub-query. </b><br>
+    <b>A. </b>A query contained by a query is called Sub-query.
+    <br><br>
+
+    <b>21. Why is group-clause used? </b><br>
+    <b>A. </b>Group-clause uses aggregate values to be derived by collecting similar data.
+    <br><br>
+
+    <b>22. Compare Non-clustered and clustered index </b><br>
+    <b>A. </b>Both having B-tree structure, non-clustered index has data pointers enabling one table many non-clustered indexes while clustered index is distinct for every table.
+    <br><br>
+
+    <b>23. Define Aggregate functions. </b><br>
+    <b>A. </b>Functions which operate against a collection of values and returning single value is called aggregate functions
+    <br><br>
+
+    <b>24. Define Scalar functions. </b><br>
+    <b>A. </b>Scalar function is depended on the argument given and returns sole value.
+    <br><br>
+
+    <b>25. What restrictions can you apply when you are creating views? </b><br>
+    <b>A. </b>Restrictions that are applied are:
+    <ul>
+      <li>Only the current database can have views.</li>
+      <li>You are not liable to change any computed value in any particular view.</li>
+      <li>Integrity constants decide the functionality of INSERT and DELETE.</li>
+      <li>Full-text index definitions cannot be applied.</li>
+      <li>Temporary views cannot be created.</li>
+      <li>Temporary tables cannot contain views.</li>
+      <li>No association with DEFAULT definitions.</li>
+      <li>Triggers such as INSTEAD OF is associated with views.</li>
+    </ul>
+
+    <b>26. Define “correlated subqueries”. </b><br>
+    <b>A. </b>A ‘correlated subquery’ is a sort of sub query but correlated subquery is reliant on another query for a value that is returned. In case of execution, the sub query is executed first and then the correlated query.
+    <br><br>
+
+    <b>27. Define Data Warehousing. </b><br>
+    <b>A. </b>Storage and access of data from the central location in order to take some strategic decision is called Data Warehousing. Enterprise management is used for managing the information whose framework is known as Data Warehousing.
+    <br><br>
+
+    <b>28. Define Join and enlist its types. </b><br>
+    <b>A. </b>Joins help in explaining the relation between different tables. They also enable you to select data with relation to data in another table.The various types are:
+    <ul>
+      <li>INNER JOINs: Blank rows are left in the middle while more than equal to two tables are joined.</li>
+      <li>OUTER JOINs: Divided into Left Outer Join and Right Outer Join. Blank rows are left at the specified side by joining tables in other side.</li>
+      Other joins are CROSS JOINs, NATURAL JOINs, EQUI JOIN and NON-EQUI JOIN.</li>
+    </ul>
+
+    <b>29. What do you mean by Index hunting?</b><br>
+    <b>A. </b>Indexes help in improving the speed as well as the query performance of database. The procedure of boosting the collection of indexes is named as Index hunting.
+    <br><br>
+
+    <b>30. How does Index hunting help in improving query performance? </b><br>
+    <b>A. </b>Index hunting helps in improving the speed as well as the query performance of database. The followed measures are achieved to do that:
+    <ul>
+      <li>The query optimizer is used to coordinate the study of queries with the workload and the best use of queries suggested based on this.</li>
+      <li>Index, query distribution along with their performance is observed to check the effect.
+        Tuning databases to a small collection of problem queries is also recommended.</li>
+    </ul>
+
+    <b>31. Enlist the disadvantages of query. </b><br>
+    <b>A. </b>The disadvantages of query are:
+    <ul>
+      <li>No indexes</li>
+      <li>Stored procedures are excessively compiled.</li>
+      <li>Triggers and procedures are without SET NOCOUNT ON.</li>
+      <li>Complicated joins making up inadequately written query.</li>
+      <li>Cursors and temporary tables showcase a bad presentation.</li>
+    </ul>
+
+    <b>32. Enlist ways to efficiently code transactions. </b><br>
+    <b>A. </b>Ways to efficiently code transactions:
+    <ul>
+      <li>User input should not be allowed while transactions.</li>
+      <li>While browsing, transactions must not be opened of data.</li>
+      <li>Transactions must be kept as small as possible.</li>
+      <li>Lower transaction segregation levels.</li>
+      <li>Least information of data must be accessed while transacting.</li>
+    </ul>
+
+    <b>33. What is Executive Plan? </b><br>
+    <b>A. </b>Executive plan can be defined as:
+    <ul>
+      <li>SQL Server caches collected procedure or the plan of query execution and used thereafter by subsequent calls.</li>
+      <li>An important feature in relation to performance enhancement.</li>
+      <li>Data execution plan can be viewed textually or graphically.</li>
+    </ul>
+
+    <b>34. Define B-trees. </b><br>
+    <b>A. </b>A data structure in the form of tree which stores sorted data and searches, insertions, sequential access and deletions are allowed in logarithmic time.
+    <br><br>
+
+    <b>35. Differentiate Table Scan from Index Scan. </b><br>
+    <b>A. </b>Iterating over all the table rows is called Table Scan while iterating over all the index items is defined as Index Scan.
+    <br><br>
+
+    <b>36. What do you mean by Fill Factor concept with respect to indexes? </b><br>
+    <b>A. </b>Fill Factor can be defined as being that value which defines the percentage of left space on every leaf-level page that is to be packed with data. 100 is the default value of Fill Factor.
+    <br><br>
+
+    <b>37. Define Fragmentation. </b><br>
+    <b>A. </b>Fragmentation can be defined as a database feature of server that promotes control on data which is stored at table level by the user.
+    <br><br>
+
+    <b>38. DBMS is a collection of _____ that enables user to create and maintain a database.</b><br>
+    <b>A. </b>Program
+    <br><br>
+
+    <b>39. What is Database partitioning? </b><br>
+    <b>A. </b>Division of logical database into independent complete units for improving its management, availability and performance is called Database partitioning.
+    <br><br>
+
+    <b>40. Explain the importance of partitioning. </b><br>
+    <b>A. </b>Splitting of one table which is large into smaller database entities logically is called database partitioning.<br>
+    Its benefits are: To improve query performance in situations dramatically when mostly rows which are heavily accessed are in one partition.
+    Accessing large parts of a single partition slower and cheaper storage media can be used for data which is seldom used.
+    <br><br>
+
+    <b>41. Define Database system. </b><br>
+    <b>A. </b>DBMS along with database is called Database system.
+    <br><br>
+
+    <b>42. What do you mean by Query Evaluation Engine? </b><br>
+    <b>A. </b>Query Evaluation Engine executes the low-level instructions that are generated by the compiler.
+    <br><br>
+
+    <b>43. Define DDL Interpreter. </b><br>
+    <b>A. </b>DDL statements are interpreted and recorded in tables called metadata.
+    <br><br>
+
+    <b>44. Define Atomicity and Aggregation. </b><br>
+    <b>A. </b>Atomicity: It’s an all or none concept which enables the user to be assured of incomplete transactions to be taken care of. The actions involving incomplete transactions are left undone in DBMS.<br>
+    Aggregation: The collected entities and their relationship are aggregated in this model. It is mainly used in expressing relationships within relationships.
+    <br><br>
+
+    <b>45. Enlist the various transaction phases.</b><br>
+    <b>A. </b>The various transaction phases are:
+    <ul>
+      <li>Analysis Phase.</li>
+      <li>Redo Phase</li>
+      <li>Undo Phase</li>
+    </ul>
+
+    <b>46. Define Object-oriented model. </b><br>
+    <b>A. </b>Compilations of objects make up this model in which values are stored within instance variables which is inside the object. The object itself comprises bodies of object for its operation which are called methods. Objects
+    containing same kind of variables and methods are called classes.
+    <br><br>
+
+    <b>47. Define Entity. </b><br>
+    <b>A. </b>It can be defined as being a ‘thing’ with an independent existence in the real world.
+    <br><br>
+
+    <b>48. What do you mean by Entity type? </b><br>
+    <b>A. </b>A set of entries having similar attributes are entity types.
+    <br><br>
+
+    <b>49. Define Entity Set. </b><br>
+    <b>A. </b>Compilation of all entries of any particular type of entry in the database is called Entity Set.
+    <br><br>
+
+    <b>50. What do you mean by Entity type extension? </b><br>
+    <b>A. </b>Compilation of similar entity types into one particular type which is grouped together as an entity set.
+    <br><br>
+
+  </div>
+
+  <footer class="footer">
+    <a class="footer-icon" href="https://twitter.com/SMRUTIR46779829"><i class="fab fa-twitter footer"></i></a>
+    <a class="footer-icon" href="https://www.facebook.com/profile.php?id=100007382925312"><i class="fab fa-facebook-f footer"></i></a>
+    <a class="footer-icon" href="https://www.instagram.com/smruti_149/"><i class="fab fa-instagram footer"></i></a>
+    <a class="footer-icon" href="https://github.com/smruti2000"><i class="fas fa-envelope footer"></i></a>
+    <p>© 2022 Smruti Ranjan Sahoo</p>
+  </footer>
+</body>
+
+</html>

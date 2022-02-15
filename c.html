@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>C Programming 📖</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="image/faviconn.ico">
+
+  <!-- Font Stye -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="container-fluid top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid header">
+        <a class="navbar-brand" href="index.html"> <img src="image/favicon.ico"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="qna.html">QnA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="video.html">Video</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="message qna">
+    C Programming
+  </div>
+
+  <div class="container note">
+    <b>1. What is C language?</b><br>
+    <b>A.</b> C is a mid-level and procedural programming language. The Procedural programming language is also known as
+          the structured programming language is a technique in which large programs are broken down into smaller modules,
+          and each module uses structured code. This technique minimizes error and misinterpretation.
+    <br><br>
+
+    <b>2. Why is C known as a mother language?</b><br>
+    <b>A.</b> C is known as a mother language because most of the compilers and JVMs are written in C language.
+          Most of the languages which are developed after C language has borrowed heavily from it like C++,
+          Python, Rust, javascript, etc. It introduces new core concepts like arrays, functions, file handling which are used in these languages.
+    <br><br>
+
+    <b>3. Why is C called a mid-level programming language?</b><br>
+    <b>A.</b> C is called a mid-level programming language because it binds the low level and high -level programming language. We can use C language as a System programming to develop the operating system as well as an Application programming to generate menu driven customer driven billing system.
+    <br><br>
+
+    <b>4. Who is the founder of C language?</b><br>
+    <b>A. </b>Dennis Ritchie.
+    <br><br>
+
+    <b>5. When was C language developed?</b><br>
+    <b>A.</b> C language was developed in 1972 at bell laboratories of AT&T.
+    <br><br>
+
+    <b>6. What are the features of the C language?</b><br>
+    <b>A.</b> The main features of C language are given below: <br>
+    <ul>
+      <li>Simple: C is a simple language because it follows the structured approach, i.e., a program is broken into parts</li>
+      <li>Portable: C is highly portable means that once the program is written can be run on any machine with little or no modifications.</li>
+      <li>Mid Level: C is a mid-level programming language as it combines the low- level language with the features of the high-level language.</li>
+      <li>Structured: C is a structured language as the C program is broken into parts.</li>
+      <li>Fast Speed: C language is very fast as it uses a powerful set of data types and operators.</li>
+    </ul>
+
+    <b>7. What is the use of printf() and scanf() functions?</b><br>
+    <b>A. printf():</b> The printf() function is used to print the integer, character, float and string values on to the screen. <br>
+    &nbsp;&nbsp;&nbsp;&nbsp; <b>scanf():</b> The scanf() function is used to take input from the user.
+    <br><br>
+
+    <b>8. What is the use of a static variable in C?</b><br>
+    <b>A.</b> Following are the uses of a static variable:
+    <ul>
+      <li>A variable which is declared as static is known as a static variable. The static variable retains its value between multiple function calls.</li>
+      <li>Static variables are used because the scope of the static variable is available in the entire program. So, we can access a static variable anywhere in the program.</li>
+      <li>The static variable is initially initialized to zero. If we update the value of a variable, then the updated value is assigned.</li>
+      <li>The static variable is used as a common value which is shared by all the methods.</li>
+      <li>The static variable is initialized only once in the memory heap to reduce the memory usage.</li>
+    </ul>
+
+    <b>9. What is the use of the function in C?</b><br>
+    <b>A. </b>Uses of C function are:
+    <ul>
+      <li>C functions are used to avoid the rewriting the same code again and again in our program.</li>
+      <li>C functions can be called any number of times from any place of our program.</li>
+      <li>When a program is divided into functions, then any part of our program can easily be tracked.</li>
+      <li>C functions provide the reusability concept, i.e., it breaks the big task into smaller tasks so that it makes the C program more understandable.</li>
+    </ul>
+
+    <b>10. What is recursion in C?</b><br>
+    <b>A. </b>When a function calls itself, and this process is known as recursion. The function that calls itself is known as a recursive function. Recursive function comes in two phases:
+    <ul>
+      <li><b>Winding phase:</b> When the recursive function calls itself, and this phase ends when the condition is reached.</li>
+      <li><b>Unwinding phase:</b> Unwinding phase starts when the condition is reached, and the control returns to the original call.</li>
+    </ul>
+
+    <b>11. What is an array in C?</b><br>
+    <b>A. </b>An Array is a group of similar types of elements. It has a contiguous memory location. It makes the code optimized, easy to traverse and easy to sort. The size and type of arrays cannot be changed after its declaration.
+    Arrays are of two types:
+    <ul>
+      <li><b>One-dimensional array:</b> One-dimensional array is an array that stores the elements one after the another.</li>
+      <li><b>Multidimensional array:</b> Multidimensional array is an array that contains more than one array.</li>
+    </ul>
+
+    <b>12. What is a pointer in C?</b><br>
+    <b>A. </b>A pointer is a variable that refers to the address of a value. It makes the code optimized and makes the performance fast. Whenever a variable is declared inside a program, then the system allocates some memory to a variable. The memory contains some address number. The variables that hold this address number is known as the pointer variable.
+    <br><br>
+
+    <b>13. What is the usage of the pointer in C?</b><br>
+    <ul>
+      <li><b>Accessing array elements:</b> Pointers are used in traversing through an array of integers and strings. The string is an array of characters which is terminated by a null character '\0'.</li>
+      <li><b>Dynamic memory allocation:</b> Pointers are used in allocation and deallocation of memory during the execution of a program.</li>
+      <li><b>Call by Reference:</b> The pointers are used to pass a reference of a variable to other function.</li>
+      <li><b>Data Structures like a tree, graph, linked list, etc.:</b> The pointers are used to construct different data structures like tree, graph, linked list, etc.</li>
+    </ul>
+
+    <b>14. What is a NULL pointer in C?</b><br>
+    <b>A. </b>A pointer that doesn't refer to any address of value but NULL is known as a NULL pointer. When we assign a '0' value to a pointer of any type, then it becomes a Null pointer.
+    <br><br>
+
+    <b>15. What is a far pointer in C?</b><br>
+    <b>A. </b>A pointer which can access all the 16 segments (whole residence memory) of RAM is known as far pointer. A far pointer is a 32-bit pointer that obtains information outside the memory in a given section.
+    <br><br>
+
+    <b>16. What is dangling pointer in C?</b><br>
+    <b>A. </b>If a pointer is pointing any memory location, but meanwhile another pointer deletes the memory occupied by the first pointer while the first pointer still points to that memory location, the first pointer will be known as a dangling pointer. This problem is known as a dangling pointer problem.
+    <br><br>
+
+    <b>17. What is pointer to pointer in C?</b><br>
+    <b>A. </b>In case of a pointer to pointer concept, one pointer refers to the address of another pointer. The pointer to pointer is a chain of pointers. Generally, the pointer contains the address of a variable. The pointer to pointer contains the address of a first pointer.
+    <br><br>
+
+    <b>18. What is static memory allocation?</b><br>
+    <ul>
+      <li>In case of static memory allocation, memory is allocated at compile time, and memory can't be increased while executing the program. It is used in the array.</li>
+      <li>The lifetime of a variable in static memory is the lifetime of a program.</li>
+      <li>The static memory is allocated using static keyword.</li>
+      <li>The static memory is implemented using stacks or heap.</li>
+      <li>The pointer is required to access the variable present in the static memory.</li>
+      <li>The static memory is faster than dynamic memory.</li>
+      <li>In static memory, more memory space is required to store the variable.</li>
+    </ul>
+
+    <b>19. What is dynamic memory allocation?</b><br>
+    <ul>
+      <li>In case of dynamic memory allocation, memory is allocated at runtime and memory can be increased while executing the program. It is used in the linked list.</li>
+      <li>The malloc() or calloc() function is required to allocate the memory at the runtime.</li>
+      <li>An allocation or deallocation of memory is done at the execution time of a program.</li>
+      <li>No dynamic pointers are required to access the memory.</li>
+      <li>The dynamic memory is implemented using data segments.</li>
+      <li>Less memory space is required to store the variable.</li>
+    </ul>
+
+    <b>20. What functions are used for dynamic memory allocation in C language?</b><br>
+    <b>A. 1.malloc():</b>
+    <ul>
+      <li>The malloc() function is used to allocate the memory during the execution of the program.</li>
+      <li>It does not initialize the memory but carries the garbage value.</li>
+      <li>It returns a null pointer if it could not be able to allocate the requested space.</li>
+    </ul>
+    <b>2.calloc():</b>
+    <ul>
+      <li>The calloc() is same as malloc() function, but the difference only is that it initializes the memory with zero value.</li>
+    </ul>
+    <b>3.realloc():</b>
+    <ul>
+      <li>The realloc() function is used to reallocate the memory to the new size.</li>
+      <li>If sufficient space is not available in the memory, then the new block is allocated to accommodate the existing data.</li>
+    </ul>
+    <b>4.free():</b>
+    <ul>
+      <li>The free() function releases the memory allocated by either calloc() or malloc() function.</li>
+    </ul>
+
+    <b>21. What is the difference between malloc() and calloc()?</b><br>
+    <b>A. calloc()</b>
+    <ul>
+      <li>The malloc() function allocates a single block of requested memory.</li>
+      <li>It initializes the content of the memory to zero.</li>
+      <li>It consists of two arguments.</li>
+      <li>It returns a pointer pointing to the allocated memory.</li>
+    </ul>
+    <b>malloc()</b>
+    <ul>
+      <li>The calloc() function allocates multiple blocks of requested memory.</li>
+      <li>It does not initialize the content of memory, so it carries the garbage value.</li>
+      <li>It consists of only one argument.</li>
+      <li>It returns a pointer pointing to the allocated memory.</li>
+    </ul>
+
+    <b>22. What is the structure?</b><br>
+    <ul>
+      <li>The structure is a user-defined data type that allows storing multiple types of data in a single unit. It occupies the sum of the memory of all members.</li>
+      <li>The structure members can be accessed only through structure variables.</li>
+      <li>Structure variables accessing the same structure but the memory allocated for each variable will be different.</li>
+    </ul>
+
+    <b>23. What is a union?</b><br>
+    <ul>
+      <li>The union is a user-defined data type that allows storing multiple types of data in a single unit. However, it doesn't occupy the sum of the memory of all members. It holds the memory of the largest member only.</li>
+      <li>In union, we can access only one variable at a time as it allocates one common space for all the members of a union.</li>
+    </ul>
+
+    <b>24. What is an auto keyword in C?</b><br>
+    <b>A. </b>In C, every local variable of a function is known as an automatic (auto) variable. Variables which are declared inside the function block are known as a local variable. The local variables are also known as an auto variable. It is optional to use an auto keyword before the data type of a variable. If no value is stored in the local variable, then it consists of a garbage value.
+    <br><br>
+
+    <b>25. What is the purpose of sprintf() function?</b><br>
+    <b>A. </b>The sprintf() stands for "string print." The sprintf() function does not print the output on the console screen. It transfers the data to the buffer. It returns the total number of characters present in the string.
+    <br><br>
+
+    <b>26. What is a token?</b><br>
+    <b>A. </b>The Token is an identifier. It can be constant, keyword, string literal, etc. A token is the smallest individual unit in a program. C has the following tokens:
+    <ul>
+      <li>Identifiers: Identifiers refer to the name of the variables.</li>
+      <li>Keywords: Keywords are the predefined words that are explained by the compiler.</li>
+      <li>Constants: Constants are the fixed values that cannot be changed during the execution of a program.</li>
+      <li>Operators: An operator is a symbol that performs the particular operation.</li>
+      <li>Special characters: All the characters except alphabets and digits are treated as special characters.</li>
+    </ul>
+
+    <b>27. What is command line argument?</b><br>
+    <b>A. </b>The argument passed to the main() function while executing the program is known as command line argument.
+    <br><br>
+
+    <b>28. What is the acronym for ANSI?</b><br>
+    <b>A. </b>The ANSI stands for " American National Standard Institute." It is an organization that maintains the broad range of disciplines including photographic film, computer languages, data encoding, mechanical parts, safety and more.
+    <br>
+
+    <b>29. What is the difference between getch() and getche()?</b><br>
+    <b>A. </b>The getch() function reads a single character from the keyboard. It doesn't use any buffer, so entered data will not be displayed on the output screen. <br>
+    The getche() function reads a single character from the keyword, but data is displayed on the output screen. Press Alt+f5 to see the entered character.
+    <br><br>
+
+    <b>30. What is the newline escape sequence?</b><br>
+    <b>A. </b>The new line escape sequence is represented by "\n". It inserts a new line on the output screen.
+    <br><br>
+
+    <b>31. Who is the main contributor in designing the C language after Dennis Ritchie?</b><br>
+    <b>A. </b>Brain Kernighan.
+    <br><br>
+
+    <b>32. What is the difference between near, far and huge pointers?</b><br>
+    <b>A. </b>A virtual address is composed of the selector and offset. <br>
+    A near pointer doesn't have explicit selector whereas far, and huge pointers have explicit selector. When you perform pointer arithmetic on the far pointer, the selector is not modified, but in case of a huge pointer, it can be modified.<br>
+    These are the non-standard keywords and implementation specific. These are irrelevant in a modern platform.
+    <br><br>
+
+    <b>33. What is the maximum length of an identifier?</b><br>
+    <b>A. </b>It is 32 characters ideally but implementation specific.
+    <br><br>
+
+    <b>34. What is typecasting?</b><br>
+    <b>A. </b>The typecasting is a process of converting one data type into another is known as typecasting. If we want to store the floating type value to an int type, then we will convert the data type into another data type explicitly.
+    <br><br>
+
+    <b>35. What are the functions to open and close the file in C language?</b><br>
+    <b>A. </b>The fopen() function is used to open file whereas fclose() is used to close file.
+    <br><br>
+
+    <b>36. Can we access the array using a pointer in C language?</b><br>
+    <b>A. </b>Yes, by holding the base address of array into a pointer, we can access the array using a pointer.
+    <br><br>
+
+    <b>37. What is an infinite loop?</b><br>
+    <b>A. </b>A loop running continuously for an indefinite number of times is called the infinite loop.
+    <br><br>
+
+    <b>38. What is the difference between call by value and call by reference in C?</b><br>
+    <b>A. Call by value:</b>
+    <ul>
+      <li>When a copy of the value is passed to the function, then the original value is not modified.</li>
+      <li>Actual arguments and formal arguments are created in separate memory locations.</li>
+      <li>In this case, actual arguments remain safe as they cannot be modified.</li>
+      <li>	The copies of the actual arguments are passed to the formal arguments.</li>
+    </ul>
+    <b>Call by reference:</b>
+    <ul>
+      <li>When a copy of the value is passed to the function, then the original value is modified.</li>
+      <li>Actual arguments and formal arguments are created in the same memory location.</li>
+      <li>In this case, actual arguments are not reliable, as they are modified.</li>
+      <li>The addresses of actual arguments are passed to their respective formal arguments.</li>
+    </ul>
+
+    <b>39. What is modular programming?</b><br>
+    <b>A. </b>Modular programming is a program design technique in which a large program is divided into sub programs/ functions that are called modules, it improve maintainability of a program. It makes software development, debug, modify, update faster and easy.
+    <br><br>
+
+    <b>40. What is variable?</b><br>
+    <b>A. </b>Variable is a named location with unique name, used to stored data according to the requirement.
+    <br>
+</div>
+  <footer class="footer">
+    <a class="footer-icon" href="https://twitter.com/SMRUTIR46779829"><i class="fab fa-twitter footer"></i></a>
+    <a class="footer-icon" href="https://www.facebook.com/profile.php?id=100007382925312"><i class="fab fa-facebook-f footer"></i></a>
+    <a class="footer-icon" href="https://www.instagram.com/smruti_149/"><i class="fab fa-instagram footer"></i></a>
+    <a class="footer-icon" href="https://github.com/smruti2000"><i class="fas fa-envelope footer"></i></a>
+    <p>© 2022 Smruti Ranjan Sahoo</p>
+  </footer>
+</body>
+
+</html>

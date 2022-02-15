@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>COA Note 📖</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="image/faviconn.ico">
+
+  <!-- Font Stye -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="container-fluid top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid header">
+        <a class="navbar-brand" href="index.html"> <img src="image/favicon.ico"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="qna.html">QnA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="video.html">Video</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="message qna">
+    Computer Organization and Architecture
+  </div>
+
+  <div class="container note">
+    <b>1. Explain what is Computer Architecture?</b><br>
+    <b>A. </b>Computer architecture is a specification detailing about how a set of software and hardware standards interacts with each other to form a computer system or platform.
+    <br><br>
+
+    <b>2. How Computer Architecture is characterized?</b><br>
+    <b>A. </b>The computer architecture is characterized into three categories
+    <ul>
+      <li><b>System design :</b> It includes all the hardware component in the system, including data processor aside from the CPU like direct memory access and graphic processing unit</li>
+      <li><b>Instruction Set Architecture (ISA):</b> It is the embedded programming language of the central processing unit. It determines the CPU’s functions and capabilities based on programming it can process.</li>
+      <li><b>Microarchitecture:</b> It defines the data path, storage element, and data processing as well as how they should be implemented in the ISA.</li>
+    </ul>
+
+    <b>3. Mention important steps for computer design?</b><br>
+    <b>A. </b>A CPU architecture is defined by the set of machine language which can be defined as a
+    <ul>
+      <li>Set of registers and their functions ( capabilities )</li>
+      <li>Sequence of micro-operations performed on the data stored in registers</li>
+      <li>Control signals that initiate the sequence</li>
+    </ul>
+
+    <b>4. Mention what are the different types of fields that are part of an instruction?</b><br>
+    <b>A. </b>The different types of fields that are parts of an instruction are
+    <ul>
+      <li>Operation Code Field or OP Code field: This field is used to determine the operation to be performed for the instruction</li>
+      <li><b>Address Field:</b> This field is used to determine various addresses such as memory address and register address</li>
+      <li><b>Mode Field:</b> This field determines how operand is to perform or how effective address is derived</li>
+    </ul>
+
+    <b>5. Mention what are the basic components of a Microprocessor?</b><br>
+    <b>A. </b>The basic components of a Microprocessor are
+    <ul>
+      <li>Address lines to refer to the address of a block</li>
+      <li>Data lines for data transfer</li>
+      <li>IC chips for processing data</li>
+    </ul>
+
+    <b>6. Mention what are different types of interrupts in a microprocessor system? Explain?</b><br>
+    <b>A. </b>There are three types of interrupts that can cause a break.
+    <ul>
+      <li>External Interrrupts: From external input/output devices such types of interrupt comes.</li>
+      <li>Internal Interrupts: These types of interrupts are caused due to any exception caused by the program itself. For example, division by zero or an invalid opcode, etc.</li>
+      <li>Software Interrupts: Only during the execution of an instruction such type of interruption can occur.  The primary purpose of such interrupts is to switch from user mode to supervisor mode.</li>
+    </ul>
+
+    <b>7. Mention what are the common components of a microprocessor are?</b><br>
+    <b>A. </b>The common components of a microprocessor include
+    <ul>
+      <li>I/O Units</li>
+      <li>Control Unit</li>
+      <li>Arithmetic Logic Unit (ALU)</li>
+      <li>Registers</li>
+      <li>Cache</li>
+    </ul>
+
+    <b>8. Explain what is Snooping Cache?</b><br>
+    <b>A. </b> Snooping Cache is the process where individual caches monitor address lines for accesses to memory locations that they have cached.
+    <br><br>
+
+    <b>9. Mention what is the simplest way to determine cache locations in which to store memory blocks?</b><br>
+    <b>A. </b>Direct Mapping is the simplest way to define cache locations in which to store memory blocks. Associative memories are expensive in comparison to random-access memories due to the added logic associated with each cell.
+    <br><br>
+
+    <b>10. What digital functions should be used to convert the octal code to binary code?</b><br>
+    <b>A. </b>To convert the octal code to binary code multiplexers is used. It is also referred as Data Selector, where dynamic memory uses the same address lines for both row and column.
+    <br><br>
+
+    <b>11. What technique is used to automatically move program and data blocks into the physical main memory when they are required for execution?</b><br>
+    <b>A. </b>Virtual Memory technique is used. It provides a mechanism for translating program generated address into correct main memory locations.  By means of mapping table translation or mapping is handled.
+    <br><br>
+
+    <b>12. Mention what is the use of RAID system?</b><br>
+    <b>A. </b>The use of RAID system is to increase the disk storage capacity and availability.
+    <br><br>
+
+    <b>13. Explain what type of memory that can be erased with the electric discharge?</b><br>
+    <b>A. </b>With the passage of electric discharge, EEPROM is the type of memory whose content is erased.
+    <br><br>
+
+    <b>14.  Explain what is horizontal micro code?</b><br>
+    <b>A. </b>The horizontal micro code contains the control signal without any intermediary.  It contains a lot of signals and hence due to that the number of bits also increases.
+    <br><br>
+
+    <b>15. Explain what is direct mapping?</b><br>
+    <b>A. </b>In direct mapping, the RAM is used to store data and some of the data is stored in the Cache.  The address space is divided into two parts index field and tag field.  The tag field is used to store the tag field whereas the rest is stored in the main memory.
+    <br><br>
+
+    <b>16. Mention what are the types of micro-operations?</b><br>
+    <b>A. </b>The types of micro-operations are
+    <ul>
+      <li>Register transfer micro-operations: These type of micro-operations are used to transfer information from one register to another binary information</li>
+      <li>Shift micro-operation: These operations are used to perform shift operations in data store in registers</li>
+      <li>Logic micro-operation: These are used to perform on numeric data stored in the registers some arithmetic operations</li>
+      <li>Arithmetic micro-operations: These micro-operations are used to execute some arithmetic operations on numeric data stored in the registers</li>
+    </ul>
+
+    <b>17. What does DMA stands for?</b><br>
+    <b>A. </b>DMA stands for Direct Memory Access.
+    <br><br>
+
+    <b>18. When large number of registers are included in the CPU, what is the most efficient way to connect them?</b><br>
+    <b>A. </b>When large number of registers are included in the CPU, the most efficient way to connect them is through an ALU.
+    <br><br>
+
+    <b>19. Explain if the internal bus connects only register within the CPU, how would you get data to and from memory?</b><br>
+    <b>A. </b>The AR or Address Register is used to select a memory address, and the Data Register is used to send and receive the data.  Both these register are connected to the internal BUS, and the Data Register acts as a bridge between the memory data BUS and internal BUS.<br>
+              So first we load AR with the desired memory address and then transfer to or from Data Register.
+    <br><br>
+
+    <b>20. Explain what is WAIT state?</b><br>
+    <b>A. </b>A WAIT state plays a key role in preventing CPU speed incompatibilities.  Many times the processor is at ready state to accept data from a device or location, but there might be no input available. In such case there will be wastage of CPU time, and the system gets into WAIT state.
+    <br><br>
+
+    <b>21. Explain how you can deal with WAIT state?</b><br>
+    <b>A. </b>The one way to deal with WAIT state is increasing the microprocessor clock period by reducing the clock frequency.<br>
+          The second way is by using special control input READY. It allows the memory to set its own memory cycle time.
+    <br><br>
+
+    <b>22. What Are The Different Types Of Interrupts In A Microprocessor System, Explain?</b><br>
+    <b>A. </b>In the normal execution of a program there are three types of interrupts that can cause a break:<br>
+    <ul>
+      <li>External Interrupts: These types of interrupts generally come from external input / output devices which are connected externally to the processor. They are generally independent and oblivious of any programming that is currently running on the processor.</li>
+      <li>Internal Interrupts: They are also known as traps and their causes could be due to some illegal operation or the erroneous use of data. Instead of being triggered by an external event they are usually triggered due to any exception that has been caused by the program itself. Some of the causes of these types of interrupts can be due to attempting a division by zero or an invalid opcode etc.</li>
+      <li>Software interrupts: These types if interrupts can occur only during the execution of an instruction. They can be used by a programmer to cause interrupts if need be. The primary purpose of such interrupts is to switch from user mode to supervisor mode.</li>
+    </ul>
+
+    <b>23. What Is Virtual Memory In Computer?</b><br>
+    <b>A. </b>Virtual memory is that when the available RAM memory is not sufficient for the system to run the current applications it will take some memory from hard disk.This memory is termed as Virtual memory.
+    <br><br>
+
+    <b>24. State Some Of The Common Rules Of Assembly Language?</b><br>
+    <b>A. </b>Some of the common rules of assembly level language are as follows:
+    <ul>
+      <li>In assembly language the label field can be either empty or may specify a symbolic address.</li>
+      <li>Instruction fields can specify pseudo or machine instructions.</li>
+      <li>Comment fields can be left empty or can be commented with.</li>
+      <li>Up to 4 characters are only allowed in the case of symbolic addresses.</li>
+      <li>The symbolic addresses field are terminated by a comma whereas the comment field begins with a forward slash.</li>
+    </ul>
+
+    <b>25. Explain How Many Types Of Memory In Computer Architecture?</b><br>
+    <b>A. </b>computer have different type of memory like primary memory , Auxiliary memory , buffer memory , Cache memory , virtual memory ,the work of all memory heterogeneously primary memory is directly communicate with the CPU . Auxiliary memory are used for storing the data for long time . Buffer memory are mainly used for storing the intermediate data between the travel . cache memory are used for storing the those data that currently required at process time for increase the speed of the data . virtual memory are put in between the two memory for increase the speed of data or instruction it means it put between HDD and RAM .
+    <br><br>
+
+    <b>26. What Do You Understand Vertical Micro Code, Explain The Designing Strategy Of A Control Unit Coded On Vertical Code?</b><br>
+    <b>A. </b>Vertical microcode can be considered to be a segment of code or operators that have been clubbed together into fields. In this field every micro operation is given a unique value.
+    <ul>
+      <li>This helps in efficient organization of related code together.</li>
+      <li>An effective design strategy could be in case of 2 micro operations occurring at the same state, to assign them two different fields.</li>
+      <li>A no operation NOP can be included in each field if necessary.</li>
+      <li>The remaining micro operations can be distributed among the other operation field bits.</li>
+      <li>Also micro operations that modify the same registers could be grouped together in the same field.</li>
+    </ul>
+
+    <b>27. Explain What Are The Different Hazards? How Do We Avoid Them?</b><br>
+    <b>A. </b>There are situations, called hazards, that prevent the next instruction in the instruction stream from executing during its designated clock cycle. Hazards reduce the performance from the ideal speedup gained by pipelining.
+    <br>There are three classes of Hazards:
+    <ul>
+      <li>Structural Hazards: It arise from resource conflicts when the hardware cannot support all possible combinations of instructions simultaniously in ovelapped execution.</li>
+      <li>Data Hazards: It arise when an instruction depends on the results of previous instruction in a way that is exposed by the ovelapping of instructions in the pipeline.</li>
+      <li>Control Hazards: It arise from the pipelining of branches and other instructions that change the PC.</li>
+    </ul>
+
+    <b>28. Briefly Explain The Two Hardware Methods To Establish Priority?</b><br>
+    <b>A. </b>Two different ways of establishing hardware priority are Daisy Chaining and parallel priority.
+    <ul>
+      <li>Daisy chaining is a form of a hardware implementation of the polling procedure.</li>
+      <li>Parallel priority is quicker of the two and uses a priority encoder to establish priorities.</li>
+      <li>In parallel priority interrupt a register is used for which the bits are separated by the interrupt signals from every device.</li>
+      <li>The parallel priority interrupt may also contain a mask register which is primarily used to control the status of every request regarding interrupts.</li>
+    </ul>
+
+    <b>29. Instead Of Just 5-8 Pipe Stages Why Not Have, Say, A Pipeline With 50 Pipe Stages?</b><br>
+    <b>A. </b>The latency of the architecture increases with the pipeline stages. Penalty due to the flushing of the pipeline for instance will also increase Cycles Per Instruction of the CPU architecture.
+    <br><br>
+
+    <b>30. Explain The Requirement Of Page-table And The Different Ways In Which The Table Can Be Organized?</b><br>
+    <b>A. </b>For any computer generally the memory space is lesser as compared to the address space this implies that the main memory is lesser as compared to the secondary memory.
+    <ul>
+      <li>On the basis of the demands of the CPU data is transferred between the two memories.</li>
+      <li>Due to this a mapping technique is required which can be implemented using page-table.</li>
+      <li>The page table can be organized in two ways namely in the R/W memory and by using associative logic.</li>
+      <li>In case of R/W memory the speed of execution of programs is slow as it requires two main memory references to read data. It is also known as memory page table.</li>
+      <li>In case of associative logic it is considered to be more effective because it can be built with simply keeping mind to have equal no. of blocks in the memory as many as there are words.</li>
+    </ul>
+
+    <b>31. Explain The Cpu Is Busy But You Want To Stop And Do Some Other Task. How Do You Do It?</b><br>
+    <ul>
+      <li>Arise a non maskable interrupt.</li>
+      <li>Then give jump instruction to required subroutine.</li>
+    </ul>
+
+    <b>32. Explain Briefly About Flip-flops?</b><br>
+    <b>A. </b>Flip flops are also known as bi-stable multi-vibrators. They are able to store one bit of data.
+    <ul>
+      <li>Flip flops are able to be in two stable states namely one and zero. They can be in either states and in order to change their states they have to be driven by a trigger.</li>
+      <li>Certain flip flops are edge triggered meaning they only respond to voltage changes from one level to another. They can be either positive edged triggering or negative edged triggering.</li>
+      <li>Flip flops turn on in a random manner that is they can be in either of the states when they are turned on. In order to have a uniform state when they are powered on a CLEAR signal has to be sent to the flip flops. They can also be made to turn on in a particular state by applying PRESET.</li>
+    </ul>
+
+    <b>33. How Do We Handle Precise Exceptions Or Interrupts?</b><br>
+    <b>A. </b>Like java have a feature for handling exception handling "prime catch".the exception like divide by zero,out of bound.
+    <br><br>
+
+    <b>34. What Do You Understand By Partitioning In Reference To Operating Systems? Give Their Advantages And Disadvantages?</b><br>
+    <b>A. </b>Partitioning involves the user to partition their hard drives and then they can implement / install multiple operating systems on them. The user requires a boot manager to switch between different operating systems.
+    <ul>
+      <li>Partitioning allows each operating system to work optimally.</li>
+      <li>Each os has the complete access to the hardware of the system on which it is being executed</li>
+      <li>Also depending on the file system used the user is free to resize his partition according to his needs.</li>
+      <li>But manual partition is not a simple task and requires patience.</li>
+      <li>The system needs to be restarted in case the user wants to switch operating systems.</li>
+    </ul>
+
+    <b>35. Explain The Difference Between Interrupt Service Routine And Subroutine?</b><br>
+    <b>A. </b>Subroutine are the part of executing processes(like any process can call a subroutine for achieve task),while the interrupt subroutine never be the part.interrupt subroutine are subroutine that are external to a process.
+    <br><br>
+
+    <b>36. What Do You Understand By Virtualization?mention The Pros And Cons?</b><br>
+    <b>A. </b>In a way virtualization appears similar to emulation but actually it shares hardware resources from the host OS.
+    <ul>
+      <li>This method is slower as compared to partition method but is faster than emulation.</li>
+      <li>Virtualization had also vast support considering it can also provide with 3d support.</li>
+      <li>With the help of virtualization it enable users to create virtual clusters.</li>
+      <li>But virtualization systems require a lot of memory in form of ram.</li>
+      <li>For virtualization it is mandatory that the virtualized platform has the same architecture as the host pc otherwise due to incompatibilities it is not possible.</li>
+    </ul>
+
+    <b>37. Can You Explain What Are The Basic Components In A Microprocessor?</b><br>
+    <ul>
+      <li>address lines to refer to the address of a block</li>
+      <li>data lines for data transfer</li>
+      <li>IC chips 4 processing data</li>
+    </ul>
+
+    <b>38. What Are The Different Types Of Fields That Are Part Of An Instruction?explain?</b><br>
+    <b>A. </b>An instruction can be considered to be a command that has been issued to a computer to perform a particular operation.<br>
+    The instruction format contains various field in them such as: Operation Code Field: Also known as the op code field, this field is used to specify the operation to be performed for the instruction.<br>
+    Address Field: This field as its name specifies is used to designate the various addresses such as register address and memory address.<br>
+    Mode field: This field specifies as to how effective address is derives or how an operand is to perform.<br>
+    For ex:. ADD R0, R1. In this case the ADD is the operand whereas the R1, ans R0 are the address fields.
+    <br><br>
+
+    <b>39. What Are The Major Difficulties Of Pipeline Conflicts In Processors Supporting Pipe Lining?</b><br>
+    <b>A. </b>The following are the main reasons for pipe line conflicts in the processor:
+    <ul>
+      <li>When the same resource is accessed at the same time by two different segments it results in resource conflicts. The only way to resolve this problem is to use separate data memories.</li>
+      <li>In case an instruction's execution depends on the result of a previous instruction and that result is unavailable it leads to data dependency conflicts.</li>
+      <li>Instructions that change the count of the PC can cause a lot of problems. This is prevalent particularly in the case of Branch instructions. A method to resolve this issue is known as delayed load where certain instruction are made to execute in a delayed manner to avoid conflicts.</li>
+    </ul>
+
+    <b>40. Explain Mesi?</b><br>
+    <b>A. </b>The MESI protocol is also known as Illinois protocol due to its development at the University of Illinois at Urbana-Champaign and MESI is a widely used cache coherency and memory coherence protocol.<br>
+    MESI is the most common protocol which supports write-back cache. Its use in personal computers became widespread with the introduction of Intel's Pentium processor to "support the more efficient write-back cache in addition to the write-through cache previously used by the Intel 486 processor"
+    <br><br>
+
+    <b>41. Point Out The Characteristics Of The Risc Architecture?</b><br>
+    <b>A. RISC meaning reduced instruction set as the acronym say aims to reduce the execution times of instructions by simplifying the instructions.</b><br>
+    The major characteristics of RISC are as follows:
+    <ul>
+      <li>Compared to normal instructions they have a lower number of instructions.</li>
+      <li>The addressing modes in case of RISC is also lower.</li>
+      <li>All the operations that are required to be performed take place within the CPU.</li>
+      <li>All instruction are executed in a single cycle hence have a faster execution time.</li>
+      <li>in this architecture the processors have a large number of registers and a much more efficient instruction pipeline.</li>
+      <li>Also the instruction formats are of fixed length and can be easily decoded.</li>
+    </ul>
+
+    <b>42. Explain A Snooping Cache?</b><br>
+    <b>A. </b>Snooping is the process where the individual caches monitor address lines for accesses to memory locations that they have cached. When a write operation is observed to a location that a cache has a copy of, the cache controller invalidates its own copy of the snooped memory location.<br>
+    Snarfing is where a cache controller watches both address and data in an attempt to update its own copy of a memory location when a second master modifies a location in main memory.
+    <br><br>
+
+    <b>43. What Are The Steps Involved In An Instruction Cycle?</b><br>
+    <b>A. </b>Any program residing in the memory contains a set of instruction that need to be executed by the computer in a sequential manner. This cycle for every instruction is known as the instruction cycle . The cycle consists of the following steps:
+    <ul>
+      <li>Fetch instruction: Like the name stated in this process the cpu fetches the instruction from the memory. The PC get loaded with the address of the instruction.</li>
+      <li>Decode: the instruction: In this process the instruction gets decoded by the processor.In case the instruction has an indirect address the effective address is read from the memory.Fetch the operand from the memory.</li>
+      <li>Execution: once the instruction gets decoded the processor executes the instruction.</li>
+      <li>Result: Store the result in the appropriate place.</li>
+    </ul>
+
+    <b>44. Explain What Are Five Stages In A Dlx Pipeline?</b><br>
+    <b>A. </b>The instruction sets can be differentiated by:
+    <ul>
+      <li>Operand storage in the CPU</li>
+      <li>Number of explicit operands per instruction</li>
+      <li>Operand location</li>
+      <li>Operations</li>
+      <li>Type and size of operands</li>
+    </ul>
+
+    <b>45. Explain The Components Of The Ven Neumann Architecture?</b><br>
+    <b>A. </b>The main components of the Von Neumann architecture were as follows:
+    <ul>
+      <li>It consisted of a main memory which would be used to store all the data and instructions.</li>
+      <li>It would consist of an arithmetic logical unit also known as the ALU. This part was to be able to work with binary data.</li>
+      <li>It also comprised of a control unit which would be responsible for the interpretation of instructions and their execution.</li>
+      <li>The control unit would also be controlled by the control unit itself.</li>
+    </ul>
+
+    <b>46. What Is External Interrupts?</b><br>
+    <b>A. </b>These types of interrupts generally come from external input / output devices which are connected externally to the processor. They are generally independent and oblivious of any programming that is currently running on the processor.
+    <br><br>
+
+    <b>47. Explain Briefly Six Different Types Of Addressing Modes Of An Instruction?</b><br>
+    <b>A. </b>The different types of instructions are as follows:
+    <ul>
+      <li>Immediate Mode: As the name suggests the instruction in itself contains the operand.</li>
+      <li>Register Mode: In this mode the operands of an instruction are placed in the registers which themselves are placed inside the CPU.</li>
+      <li>Direct address mode: The address part of an instruction in this mode is the effective address.</li>
+      <li>Indexed addressing mode: In this mode in order to obtain the effective address the contents of the index register is added to the instructions address part.</li>
+      <li>Relative address mode: In this mode in order to find out the effective address the contents of the program counter are added to the address part of the instruction.</li>
+    </ul>
+
+    <b>48. What Is Internal Interrupts?</b><br>
+    <b>A. </b>They are also known as traps and their causes could be due to some illegal operation or the erroneous use of data. Instead of being triggered by an external event they are usually triggered due to any exception that has been caused by the program itself. Some of the causes of these types of interrupts can be due to attempting a division by zero or an invalid opcode etc.
+    <br><br>
+
+    <b>49. Mention The Pros And Cons Of Emulation?</b><br>
+    <b>A. </b>Emulation is the process in which a target CPU and its corresponding hardware would be emulated exactly the same way.
+    <ul>
+      <li>Emulation is a relatively old concept and is not widely used to emulate full scale OS usage.</li>
+      <li>It is considered to be the best platform for embedded/os development.</li>
+      <li>Emulation is possible for any hardware and it does not affect the underlying OS ( host ).</li>
+      <li>Although there are many positives of emulation there are few downside of it as well, Emulation can be extremely slow.</li>
+      <li>Complete thorough hardware support cannot be possible in emulation.</li>
+      <li>Emulation is also very resource hungry and requires a lot of ram to function smoothly.</li>
+    </ul>
+
+    <b>50. What Is Software Interrupts?</b><br>
+    <b>A. </b>These types if interrupts can occur only during the execution of an instruction. They can be used by a programmer to cause interrupts if need be. The primary purpose of such interrupts is to switch from user mode to supervisor mode.
+    <br>
+</div>
+
+  <footer class="footer">
+    <a class="footer-icon" href="https://twitter.com/SMRUTIR46779829"><i class="fab fa-twitter footer"></i></a>
+    <a class="footer-icon" href="https://www.facebook.com/profile.php?id=100007382925312"><i class="fab fa-facebook-f footer"></i></a>
+    <a class="footer-icon" href="https://www.instagram.com/smruti_149/"><i class="fab fa-instagram footer"></i></a>
+    <a class="footer-icon" href="https://github.com/smruti2000"><i class="fas fa-envelope footer"></i></a>
+    <p>© 2022 Smruti Ranjan Sahoo</p>
+  </footer>
+</body>
+
+</html>
